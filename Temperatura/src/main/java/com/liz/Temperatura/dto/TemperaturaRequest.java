@@ -11,6 +11,8 @@ public class TemperaturaRequest {
     }
     public TemperaturaRequest(double temperatura, String de, String para) {
         this.temperatura = temperatura;
+        this.de = de;
+        this.para = para;
     }
 
     public double getTemperatura() {

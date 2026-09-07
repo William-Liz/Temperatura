@@ -18,7 +18,7 @@ public class TemperaturaController {
         this.service = service;
     }
 
-    @PostMapping("converter")
+    @PostMapping("/converter")
     public TemperaturaResponse converter(@RequestBody TemperaturaRequest temperaturaRequest) {
         return service.converter(temperaturaRequest);
     }
